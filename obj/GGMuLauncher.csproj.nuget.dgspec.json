@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/razvan/Desktop/launcher_fix/GGMuLauncher.csproj": {}
+  },
+  "projects": {
+    "/home/razvan/Desktop/launcher_fix/GGMuLauncher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/razvan/Desktop/launcher_fix/GGMuLauncher.csproj",
+        "projectName": "GGMuLauncher",
+        "projectPath": "/home/razvan/Desktop/launcher_fix/GGMuLauncher.csproj",
+        "packagesPath": "/home/razvan/.nuget/packages/",
+        "outputPath": "/home/razvan/Desktop/launcher_fix/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/razvan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/razvan/.dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
