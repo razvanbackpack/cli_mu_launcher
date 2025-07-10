@@ -37,7 +37,7 @@ File: `mu-version.json` (on your web server)
 
 ## Testing
 
-Test your remote endpoint:
+Test your remote endpoint run this command in your `Command Prompt` on windows, or `cmd.exe`:
 ```bash
 curl "https://yoursite.com/mu-version.json"
 ```
