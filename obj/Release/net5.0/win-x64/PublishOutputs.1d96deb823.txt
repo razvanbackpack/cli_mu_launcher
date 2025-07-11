@@ -1,6 +1,0 @@
-/home/razvan/Desktop/launcher_fix/dist/GGMuLauncher.pdb
-/home/razvan/Desktop/launcher_fix/dist/clrcompression.dll
-/home/razvan/Desktop/launcher_fix/dist/clrjit.dll
-/home/razvan/Desktop/launcher_fix/dist/coreclr.dll
-/home/razvan/Desktop/launcher_fix/dist/mscordaccore.dll
-/home/razvan/Desktop/launcher_fix/dist/GGMuLauncher.exe
