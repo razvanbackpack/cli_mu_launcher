@@ -26,21 +26,21 @@ Output: `dist/GG Mu.exe` (~13MB)
 ```cmd
 dotnet restore
 dotnet publish -c Release -r win-x64 --self-contained -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true -o dist
-ren "dist\GGMuLauncher.exe" "GG Mu.exe"
+ren "dist\GGMuLauncher.exe" "Mu Launcher.exe"
 ```
 
 ### Linux to Windows (Cross-Platform)
 ```bash
 dotnet restore
 dotnet publish -c Release -r win-x64 --self-contained -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true -o dist
-mv dist/GGMuLauncher.exe "dist/GG Mu.exe"
+mv dist/GGMuLauncher.exe "dist/Mu Launcher.exe"
 ```
 
 ### Linux Native
 ```bash
 dotnet restore
 dotnet publish -c Release -r linux-x64 --self-contained -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true -o dist
-mv dist/GGMuLauncher "dist/GG Mu"
+mv dist/GGMuLauncher "dist/Mu Launcher"
 ```
 
 ## Development Build
