@@ -1,5 +1,5 @@
 {
   "version": "1.0.0",
   "websiteUrl": "https://example.com",
-  "updateCheckUrl": "https://razvancode.net/mu-version.json"
+  "updateCheckUrl": "https://example.com/mu-version.json"
 }
