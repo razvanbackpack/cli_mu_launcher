@@ -18,7 +18,7 @@ chmod +x build.sh
 ./build.sh
 ```
 
-Output: `dist/GG Mu.exe` (~13MB)
+Output: `dist/Mu Launcher.exe` (~13MB)
 
 ## Manual Build Commands
 
